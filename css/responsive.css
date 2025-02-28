@@ -1,0 +1,469 @@
+/* --------------------------------- MEDIA QUERY --------------------------- */
+
+@media only screen and (max-width: 430px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  header {
+    height: auto;
+  }
+  .information {
+    display: none;
+  }
+
+  nav ul li {
+    display: none;
+    height: auto;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 30px;
+    height: auto;
+    color: var(--WhiteColor);
+    z-index: 9999;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+  }
+
+  .title {
+    top: 28.5px;
+  }
+  .advertisemnt {
+    font-size: 17px;
+  }
+  .advertisemntTitle {
+    font-size: 30px;
+    width: auto;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+  .language {
+    display: none;
+  }
+  .bg-img {
+    height: 450px;
+  }
+
+  .rounedImgAvatar {
+    display: none;
+  }
+
+  .revenue {
+    padding: 1em;
+    display: block;
+  }
+
+  .round-button {
+    display: none;
+  }
+
+  .drive-revenue {
+    font-size: 30px;
+    width: 100vw;
+  }
+
+  .drive-para {
+    font-size: 15px;
+    width: auto;
+  }
+
+  .img-grid {
+    display: none;
+  }
+  .quick {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  .our-process img {
+    width: 100vw;
+  }
+
+  .quick-audit {
+    padding: 0px;
+  }
+
+  .quick-audit img {
+    width: 50vw;
+  }
+
+  .quick-flex {
+    display: block;
+  }
+
+  .quick-flex form input {
+    height: 50px;
+  }
+
+  .submit-btn {
+    height: 50px;
+  }
+
+  .brand-deep {
+    display: block;
+    margin-top: 10px;
+    height: auto;
+  }
+
+  .brand-deep img {
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .lef-side {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+  }
+  .lef-side img {
+    height: auto;
+    width: auto;
+  }
+
+  .right-side {
+    padding: 1em;
+    height: auto;
+    width: 100vw;
+  }
+  .right-side h1 {
+    width: auto;
+    margin-left: 0px;
+  }
+  .right-side p {
+    width: 80vw;
+    margin-left: 0px;
+  }
+
+  .machine-gun {
+    height: auto;
+    display: block;
+    margin-top: 60px;
+  }
+
+  .machine-gun h1 {
+    width: auto;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .begin-Btn {
+    height: 60px;
+    width: 90vw;
+    margin: 1em;
+    display: none;
+  }
+
+  .begin-Btn p {
+    font-size: 15px;
+  }
+
+  .article-h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .article-p {
+    font-size: 15px;
+    width: auto;
+    padding: 0.6em;
+  }
+
+  .brand-grid {
+    display: block;
+    margin-top: 30px;
+    width: 100vw;
+    padding: 15px;
+  }
+
+  .brand-grid img {
+    width: 90vw;
+    height: auto;
+  }
+
+  .brand-grid h1 {
+    font-size: 35px;
+    width: 100vw;
+  }
+
+  .brand-grid .drive-para {
+    color: white;
+    width: 80vw;
+  }
+
+  .arrows {
+    display: none;
+  }
+
+  article section {
+    height: auto;
+  }
+
+  .both-beginBtn {
+    display: block;
+    width: 100vw;
+  }
+
+  .based-section {
+    display: block;
+    height: auto;
+    width: 100vw;
+  }
+
+  .based-section p {
+    padding: 1em;
+  }
+
+  .based-section img {
+    display: none;
+  }
+
+  .Based-overivew {
+    display: none;
+  }
+
+  .carousel .drive-para {
+    color: white;
+    width: 100vw;
+  }
+
+  .carousel {
+    height: auto;
+    padding: 10px;
+  }
+
+  .partner-carousel {
+    z-index: 0;
+    color: var(--WhiteColor);
+    background-repeat: no-repeat;
+    width: 100vw;
+    position: relative;
+  }
+
+  .carousel-flex {
+    display: block;
+    position: relative;
+  }
+
+  .caousel-card {
+    width: 75vw;
+    height: auto;
+    margin: 10px;
+  }
+
+  .digital {
+    height: auto;
+    width: auto;
+  }
+
+  .digital h1 {
+    font-size: 30px;
+    width: auto;
+  }
+
+  .digital p {
+    width: auto;
+  }
+
+  .digital-advertisment {
+    display: block;
+    margin-left: 0em;
+  }
+
+  .digital-card {
+    height: auto;
+    width: 80vw;
+    margin-bottom: 10px;
+  }
+
+  .digital-card h3 {
+    font-size: 20px;
+  }
+
+  .digital-card p {
+    font-size: 16px;
+  }
+
+  .description {
+    gap: 28px;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .description p {
+    width: auto;
+  }
+
+  .marketing-card {
+    display: block;
+  }
+
+  .industry {
+    width: auto;
+    display: block;
+  }
+
+  .industry h1 {
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+  }
+
+  .industry p {
+    width: auto;
+    font-size: 14px;
+  }
+
+  .industry-rating {
+    height: auto;
+    width: auto;
+    display: block;
+  }
+
+  .rating-value h2 {
+    line-height: 30px;
+  }
+  .rating-value p {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .faq {
+    background-size: 100vw;
+  }
+
+  .faq h1 {
+    display: flex;
+    margin: auto;
+    font-size: 40px;
+    width: auto;
+    margin-top: 50px;
+  }
+
+  .faq p {
+    width: auto;
+    font-size: 15px;
+  }
+
+  .according {
+    width: 70vw;
+    gap: 3px;
+    cursor: pointer;
+    justify-content: center;
+  }
+
+  .according p {
+    font-size: 10px;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .experience {
+    position: relative;
+    height: 1750px;
+  }
+
+  .digital-experience {
+    display: block;
+    top: 0px;
+    height: auto;
+  }
+
+  .experience h1 {
+    font-size: 40px;
+  }
+
+  .experience p {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .digital-experience form input {
+    width: 90vw;
+    font-size: 15px;
+  }
+
+  .digital-experience form input::placeholder {
+    font-size: 15px;
+  }
+
+  .digital-experience form textarea {
+    width: 90vw;
+    height: 200.5px;
+    font-size: 15px;
+  }
+
+  textarea::placeholder {
+    font-size: 15px;
+  }
+
+  .digital-experience .faqBtn {
+    display: flex;
+    height: auto;
+  }
+
+  .digital-experience .faqBtn .begin-Btn {
+    width: 100vw;
+    display: flex;
+    height: auto;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    text-align: start;
+    padding: 1em;
+    width: auto;
+  }
+
+  footer h3 {
+    font-size: 30px;
+    height: 50px;
+  }
+
+  footer ul {
+    text-align: start;
+    margin-left: 0px;
+  }
+
+  footer .talkBtn .begin-Btn {
+    width: 50vw;
+  }
+
+  .talkBtn {
+    margin-top: 0px;
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .social {
+    margin: auto;
+    justify-content: center;
+  }
+}
+
+/* Tablet (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* CSS styles for tablets */
+}
+
+/* Laptop (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS styles for laptops */
+}
+
+/* Large Screen (1025px and above) */
+@media only screen and (min-width: 1025px) {
+  /* CSS styles for large screens */
+}
