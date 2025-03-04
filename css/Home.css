@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@font-face {
+  font-family: "ClashDisplay-Variable";
+  src: url("../assets/fonts/ClashDisplay-Variable.woff2") format("woff2"),
+    url("../assets/fonts/ClashDisplay-Variable.woff") format("woff"),
+    url("../assets/fonts/ClashDisplay-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -22,7 +34,7 @@ body {
   --BorderRadius: 8px;
   --BorderColor: #6da3b0;
   --ManropeFont: "Manrope", serif;
-  --RedHatFont: "Red Hat Display", serif;
+  --RedHatFont: "ClashDisplay-Variable";
   --BlackColor: black;
 }
 
@@ -304,11 +316,11 @@ li {
   gap: 40px;
 }
 
-.our-process{
+.our-process {
   width: 100vw;
   height: auto;
 }
-.our-process img{
+.our-process img {
   width: 100vw;
 }
 
@@ -748,7 +760,7 @@ article section {
 }
 
 .digital-card {
-  height: 277px;
+  height: auto;
   background-color: var(--WhiteColor);
   padding: 32px;
   width: 350px;
@@ -807,6 +819,7 @@ article section {
 .industry h1 {
   display: flex;
   margin: auto;
+  text-align: center;
   font-size: 90px;
   width: 55%;
   margin-top: 50px;
@@ -949,6 +962,7 @@ article section {
 .experience {
   position: relative;
   height: 1262.3px;
+  margin-bottom: 100px;
 }
 
 .digital-experience {
@@ -978,7 +992,7 @@ article section {
   margin: auto;
   font-size: 90px;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 400px;
 }
 
 .experience p {
@@ -1040,6 +1054,7 @@ textarea::placeholder {
   font-family: var(--ManropeFont);
   display: flex;
   width: 80vw;
+  margin-bottom: 300px;
 }
 
 .faqBtn .begin-Btn {
@@ -1119,4 +1134,3 @@ footer .talkBtn .begin-Btn {
   height: 25.5px;
   border-radius: 100px;
 }
-
