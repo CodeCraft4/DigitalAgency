@@ -270,13 +270,13 @@ li {
   justify-content: space-evenly;
   position: absolute;
   width: 100%;
-  top: 225px;
+  top: 226px;
   text-align: start;
 }
 
 .left-side-drive2 {
   display: flex;
-  gap: 40px;
+  gap: 20px;
 }
 
 .drive-box2 p {
@@ -301,7 +301,15 @@ li {
 
 .left-side-drive3 {
   display: flex;
-  gap: 80px;
+  gap: 40px;
+}
+
+.our-process{
+  width: 100vw;
+  height: auto;
+}
+.our-process img{
+  width: 100vw;
 }
 
 .drive-box3 p {
@@ -607,7 +615,6 @@ article section {
 }
 
 .carousel {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -635,13 +642,13 @@ article section {
 
 .carousel-flex {
   display: flex;
-  gap: 25px;
+  gap: 21px;
   background-color: var(--BackgroundColor);
   position: relative;
 }
 
 .caousel-card {
-  width: 523px;
+  width: auto;
   height: 382.5px;
   border-radius: 12px;
   background-color: #13343c;
@@ -711,8 +718,9 @@ article section {
 .digital-advertisment {
   display: flex;
   align-items: center;
-  gap: 58px;
-  margin-left: 2em;
+  margin: auto;
+  justify-content: space-around;
+  width: 100vw;
 }
 
 .digital-advertisment p {
@@ -743,7 +751,7 @@ article section {
   height: 277px;
   background-color: var(--WhiteColor);
   padding: 32px;
-  width: 28vw;
+  width: 350px;
   border-radius: 20px;
 }
 
@@ -782,10 +790,9 @@ article section {
 
 .marketing-card {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   margin: auto;
   justify-content: space-around;
-  width: 100vw;
 }
 
 .industry {
@@ -971,7 +978,7 @@ article section {
   margin: auto;
   font-size: 90px;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .experience p {
